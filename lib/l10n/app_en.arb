@@ -1,0 +1,17 @@
+{
+  "dailyAgendaTitle": "Household Agenda System",
+  "homeList": "Home List",
+  "controlPanel": "Control Panel",
+  "daily": "Daily",
+  "weekly": "Weekly",
+  "enableTaskReminders": "Enable Task Reminders",
+  "priorityArea": "Priority Area",
+  "featured": "Featured",
+  "tasksList": "Tasks List",
+  "section": "Section",
+  "time": "Time",
+  "tasks": "Tasks",
+  "settings": "Settings",
+  "addTask": "Add Task",
+  "taskAddedSuccessfully": "Task added successfully"
+}

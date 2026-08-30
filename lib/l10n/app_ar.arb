@@ -1,0 +1,17 @@
+{
+  "dailyAgendaTitle": "نظام أجندة المهام المنزلية",
+  "homeList": "قائمة المنزل",
+  "controlPanel": "لوحة التحكم",
+  "daily": "يومي",
+  "weekly": "أسبوعي",
+  "enableTaskReminders": "تفعيل تذكير المهام",
+  "priorityArea": "منطقة الأولويات",
+  "featured": "مميز",
+  "tasksList": "قائمة المهام",
+  "section": "القسم",
+  "time": "الوقت",
+  "tasks": "المهام",
+  "settings": "الإعدادات",
+  "addTask": "إضافة مهمة",
+  "taskAddedSuccessfully": "تمت إضافة المهمة بنجاح"
+}
