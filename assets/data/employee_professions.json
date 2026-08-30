@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "source": "curated-local (no external API needed)",
+  "professions": [
+    {
+      "id": "economist",
+      "name_ar": "اقتصادي",
+      "name_en": "Economist",
+      "description_ar": "تحليل بيانات اقتصادية وإعداد تقارير دورية لدعم القرار.",
+      "suggested_tasks": [
+        { "title": "تحديث نموذج التوقعات الاقتصادية الشهري", "category": "شهري", "time": "10:00 ص" },
+        { "title": "إعداد تقرير مؤشرات السوق الأسبوعي", "category": "أسبوعي", "time": "09:00 ص" },
+        { "title": "مراجعة بيانات التضخم والفائدة الجديدة", "category": "يومي", "time": "08:30 ص" },
+        { "title": "اجتماع مراجعة السياسات مع الفريق", "category": "أسبوعي", "time": "13:00 م" }
+      ]
+    },
+    {
+      "id": "programmer",
+      "name_ar": "مبرمج / مطور برمجيات",
+      "name_en": "Programmer / Software Developer",
+      "description_ar": "تطوير ميزات جديدة، إصلاح أخطاء، ومراجعة كود الزملاء.",
+      "suggested_tasks": [
+        { "title": "مراجعة طلبات الدمج المعلّقة (Code Review)", "category": "يومي", "time": "09:30 ص" },
+        { "title": "كتابة اختبارات وحدة للميزة الجديدة", "category": "يومي", "time": "11:00 ص" },
+        { "title": "تحديث توثيق الـ API", "category": "أسبوعي", "time": "15:00 م" },
+        { "title": "حضور اجتماع التقييم اليومي (Daily Standup)", "category": "يومي", "time": "09:00 ص" },
+        { "title": "معالجة الأخطاء المسجّلة في نظام التتبع", "category": "يومي", "time": "14:00 م" }
+      ]
+    },
+    {
+      "id": "accountant",
+      "name_ar": "محاسب",
+      "name_en": "Accountant",
+      "description_ar": "متابعة القيود المحاسبية، التسويات، والإقرارات الضريبية.",
+      "suggested_tasks": [
+        { "title": "تسوية الحسابات البنكية", "category": "أسبوعي", "time": "10:00 ص" },
+        { "title": "مراجعة فواتير الموردين", "category": "يومي", "time": "11:30 ص" },
+        { "title": "إعداد التقرير المالي الشهري", "category": "شهري", "time": "09:00 ص" },
+        { "title": "متابعة المستحقات والمدفوعات", "category": "يومي", "time": "13:30 م" }
+      ]
+    },
+    {
+      "id": "hr_specialist",
+      "name_ar": "أخصائي موارد بشرية",
+      "name_en": "HR Specialist",
+      "description_ar": "التوظيف، متابعة أداء الموظفين، وإدارة السياسات الداخلية.",
+      "suggested_tasks": [
+        { "title": "جدولة مقابلات المرشحين الجدد", "category": "يومي", "time": "10:00 ص" },
+        { "title": "متابعة تقييمات الأداء الفصلية", "category": "شهري", "time": "14:00 م" },
+        { "title": "تحديث سياسات الإجازات", "category": "أسبوعي", "time": "11:00 ص" },
+        { "title": "الرد على استفسارات الموظفين", "category": "يومي", "time": "09:00 ص" }
+      ]
+    },
+    {
+      "id": "marketing_specialist",
+      "name_ar": "أخصائي تسويق",
+      "name_en": "Marketing Specialist",
+      "description_ar": "إدارة الحملات الإعلانية وتحليل أداء المحتوى.",
+      "suggested_tasks": [
+        { "title": "جدولة منشورات وسائل التواصل الأسبوعية", "category": "أسبوعي", "time": "09:00 ص" },
+        { "title": "تحليل أداء الحملة الإعلانية الحالية", "category": "يومي", "time": "12:00 م" },
+        { "title": "إعداد تقرير نتائج الحملة الشهري", "category": "شهري", "time": "10:00 ص" },
+        { "title": "التنسيق مع فريق التصميم لمواد جديدة", "category": "أسبوعي", "time": "13:00 م" }
+      ]
+    },
+    {
+      "id": "lawyer",
+      "name_ar": "محامٍ / مستشار قانوني",
+      "name_en": "Lawyer / Legal Counsel",
+      "description_ar": "مراجعة العقود، المتابعة القضائية، وتقديم الاستشارات.",
+      "suggested_tasks": [
+        { "title": "مراجعة بنود العقد الجديد", "category": "يومي", "time": "10:00 ص" },
+        { "title": "متابعة مواعيد الجلسات القضائية", "category": "أسبوعي", "time": "09:00 ص" },
+        { "title": "إعداد مذكرة قانونية للعميل", "category": "يومي", "time": "14:00 م" }
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "name_ar": "محلل بيانات",
+      "name_en": "Data Analyst",
+      "description_ar": "استخراج وتحليل البيانات وبناء لوحات المتابعة.",
+      "suggested_tasks": [
+        { "title": "تنظيف مجموعة البيانات الجديدة", "category": "يومي", "time": "09:30 ص" },
+        { "title": "تحديث لوحة المؤشرات (Dashboard)", "category": "أسبوعي", "time": "11:00 ص" },
+        { "title": "إعداد تقرير تحليلي للإدارة", "category": "شهري", "time": "10:00 ص" },
+        { "title": "التحقق من جودة استعلامات SQL", "category": "يومي", "time": "13:00 م" }
+      ]
+    },
+    {
+      "id": "project_manager",
+      "name_ar": "مدير مشروع",
+      "name_en": "Project Manager",
+      "description_ar": "تنسيق فرق العمل ومتابعة الجدول الزمني والمخاطر.",
+      "suggested_tasks": [
+        { "title": "تحديث خطة المشروع والمعالم الرئيسية", "category": "أسبوعي", "time": "09:00 ص" },
+        { "title": "اجتماع متابعة مع أصحاب المصلحة", "category": "أسبوعي", "time": "11:00 ص" },
+        { "title": "مراجعة سجل المخاطر", "category": "يومي", "time": "10:00 ص" },
+        { "title": "إعداد تقرير حالة المشروع", "category": "شهري", "time": "15:00 م" }
+      ]
+    },
+    {
+      "id": "designer",
+      "name_ar": "مصمم (UI/UX أو جرافيك)",
+      "name_en": "Designer (UI/UX or Graphic)",
+      "description_ar": "تصميم واجهات أو مواد بصرية ومراجعتها مع الفريق.",
+      "suggested_tasks": [
+        { "title": "تحديث نماذج الواجهة الأولية (Wireframes)", "category": "يومي", "time": "10:00 ص" },
+        { "title": "جلسة مراجعة تصميم مع المطورين", "category": "أسبوعي", "time": "13:00 م" },
+        { "title": "تحديث مكتبة عناصر التصميم (Design System)", "category": "أسبوعي", "time": "15:00 م" }
+      ]
+    },
+    {
+      "id": "sales_representative",
+      "name_ar": "مندوب مبيعات",
+      "name_en": "Sales Representative",
+      "description_ar": "متابعة العملاء المحتملين وإغلاق الصفقات.",
+      "suggested_tasks": [
+        { "title": "متابعة العملاء المحتملين الجدد", "category": "يومي", "time": "09:00 ص" },
+        { "title": "تحديث سجل المبيعات (CRM)", "category": "يومي", "time": "16:00 م" },
+        { "title": "إعداد تقرير المبيعات الأسبوعي", "category": "أسبوعي", "time": "10:00 ص" }
+      ]
+    },
+    {
+      "id": "financial_analyst",
+      "name_ar": "محلل مالي",
+      "name_en": "Financial Analyst",
+      "description_ar": "تقييم الأداء المالي وإعداد النماذج والتوقعات.",
+      "suggested_tasks": [
+        { "title": "تحديث النموذج المالي (Financial Model)", "category": "أسبوعي", "time": "10:00 ص" },
+        { "title": "مراجعة تقارير الأداء الربعية", "category": "شهري", "time": "09:00 ص" },
+        { "title": "إعداد عرض تقديمي للمستثمرين", "category": "شهري", "time": "14:00 م" }
+      ]
+    }
+  ]
+}
