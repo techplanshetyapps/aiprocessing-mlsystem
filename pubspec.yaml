@@ -1,0 +1,4 @@
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/employee_professions.json
